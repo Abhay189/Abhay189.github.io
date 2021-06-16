@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Group 18: CPSC 329 Final Project</title>
+
+        <!-- Adding the website Icon -->
+        <link rel="icon" href="./img/favicon-32x32.png">
+
+        <link rel="stylesheet" href="../website 2.0/css/basic.css">
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/clean-blog.min.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="Introduction.html">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="topic2.html">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="topic3.html">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- Page Header -->
+        <!-- Set your background image for this header on the line below. -->
+        <header class="intro-header" style="background-image: url('./img/unknown.png')">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <div class="post-heading">
+                            <h1>The Origins of Malware</h1>
+                            <h2 class="subheading">===Add something here===</h2>
+                            <span class="meta">Final Project by <a href="#">Group 18</a> : June 16, 2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Post Content -->
+        <article>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+                        <h2 class="section-heading">Early academic work on self-replicating programs</h2>
+
+                        <p></p>
+
+                        <blockquote>1949: The theory of self-replicating computer programs by John von Neumann</blockquote>
+
+                        <p>The Von Neumann universal constructor is a self-replicating machine. In the 1940s, it was designed by a mathematician, computer scientist, and engineer named John von Neumann.</p>
+
+                        <p>The details and characteristics of the machine are found in a published book made by John von Neumann called “Theory of Self-Reproducing Automata”. While the book wasn’t as well known as his other work, it was titled as the foundations for automata theory, complex systems and artificial life. His work was considered to be a discipline between the artificial world and the natural world. To understand the characteristics of malwares, we’ll break down and analyze Neumann’s machine.</p>
+
+                        <p>In 1949, at the University of Illinois, Von Neumann’s goal with the machine was specified in his lectures. It was to be designed to have a complexity similar to biological organisms under natural selection.  For the evolution of machines to be possible, a threshold of complexity must be surpassed. The threshold, according to John von Neumann, is that when a machine is run, it should be able to duplicate itself.</p>
+
+                        <p>In his plan to build this intricate machine, he divides its attributes into three parts. First, the “blueprint” of itself, which are its behaviours and the structure of the machine. Second, a universal constructor mechanism that is able to read any “descriptions” and/or “blueprint” provided and assemble using those encoded instructions. Lastly, a universal copy machine where it is able to replicate any description. The machine's mechanism in simple terms works as follows, the universal constructor activates which constructs a new machine from after it reads the description. Afterwards, the universal copy machine replicates the description read by the constructor, resulting in the copied description being embedded in the new machine. Eventually, it results in a working replication of the original that is able to keep reproducing. Although in some cases, its function goes backwards its intended route which prioritizes the replication of the description first and then builds the machine. Additionally, the machine has a chance to evolve through accumulating mutations of the “blueprint” leading to a more complex machine system.</p>
+
+                        <p>To provide a more detailed description of his machine, Neumann invented the concept of cellular automaton, which is a discrete model used in computation. The model he used contains a two dimensional grid of cells, each cell is able to be in a state out of 29 at any point in time. The cells would update their states at each timestep which are influenced by the states of the surrounding cells. In the cellular automaton, the universal constructor is a certain pattern of cell states, containing one line of cells that acts as the description. The machine then reads that line of cells, constructs the copy of the machine without the description(line of cells) which essentially becomes a “container”, and places it at another location in the grid. Finally, the machine copies the description and places it into the duplicated machine. The resulting machine is practically identical to the original. The newly made machine would then continue replicating. The process is seen in the provided picture below.</p>
+
+
+                        <a href="#">
+                            <img class="img-responsive" src="./img/top2-1.PNG" alt="">
+                        </a>
+                        <!-- <span class="caption text-muted">Apple Disk II Drive</span> -->
+
+
+                        <h2 class="section-heading">First Examples of malicious computer programs</h2>
+
+                        <p>===Add something here===</p>
+
+                        <br>
+
+                        <blockquote>1971: The “Creeper” virus written by Bob Thomas. First detected on ARPANET</blockquote>
+
+                        <p>The Creeper program or Creeper virus was the world's first ever recorded malware. It was an experimental program written by Bob Thomas in 1971.</p>
+
+                        <p>To clarify, the purpose of the creeper program was not intended to be a virus, viruses weren’t conceptualized back in the 1970s, it was an unknown topic. Bob planned to experiment and create a self-replicating program. It wasn’t made for anything malicious. The creeper program was written in PDP-10 assembly mainframe computers. These computers were used for bulk data processing for things such as consumer statistics, resource planning, etc. The computers ran a TENEX operating system (TENEX is a system that saw the first email programs SNDMSG and READMAIL which popularized the usage of @ symbols in email addresses). With the use of ARPANET, the ancestor of the internet we know today, the Creeper program “infects” the PDP-10 computers.</p>
+	
+                        <p>The Creeper’s purpose was to first, initialize a print but would stop abruptly. Afterwards, it would find another TENEX system creating a connection, then it would carry and transfer itself to the other machine, which would then run on the new machine displaying the message “I'M THE CREEPER; CATCH ME IF YOU CAN”. Important thing to note is that the program rarely or never replicates itself at all, rather it jumps from one system to the next. It would always attempt to remove itself from previous systems to move on to the next. Therefore, the Creeper wasn’t multiplying as often as a normal virus, it was mainly just one program wandering around a network.</p>
+
+                        <p>However, the program didn’t stop there. Ray Tomlinson, colleague of Bob Thomas, updated the program. Not only would it move through the network, it would also guarantee to replicate itself. This version was considered to be the first ever worm malware recorded in history. Apart from the fact that Ray had upgraded the Creeper program, he also made a Reaper program. Similar to the updated Creeper program, it wandered and replicated itself, however, its purpose was to find Creeper programs in the systems which would then force the Creeper to log off. Through that fact, the Reaper was labeled as the first anti-virus software.</p>
+	  
+                        <p>As stated above the Creeper program was not at all malicious, so the “damages” the creeper may have caused would most likely be just minor annoyances. Although, some say their creeper program replicated so much, it overpowered other programs. Overall, the extent of the damages made by the program are unspecified. Both authors were not condemned or anything of that sort for creating the program.</p>
+
+                        <a href="#">
+                            <img class="img-responsive" src="./img/creeper.png" alt="">
+                        </a>
+
+                        <br><br>
+
+ 
+                        <blockquote>1982: “Elk Cloner”—  The first computer virus that spread "in the wild"</blockquote>
+
+                        <p>The Elk Cloner virus is one of the first known computer viruses that spread outside the computer system or laboratory in which it was written. In February 1982, Rich Skrenta, created the Elk Cloner as a prank. At the time, he was a 15-year-old high school student with a precocious ability in programming and an overwhelming interest in computers.</p>
+                         <p>He wrote the boot sector virus for the Apple II computers. In those days, operating systems were stored on floppy disks. It would attach itself to the Apple II operating system and spread by floppy disks. Because floppy disks were often passed around among friends, the virus was frequently copied. When the computer was booted from an infected floppy disk, a copy of the virus would automatically start. When an uninfected floppy was accessed, the virus would copy itself to the disk, thus infecting it too. This is how the Elk Cloner would slowly spread from one floppy disk to another, in a sort of chain reaction. Since most people had no idea what viruses were, they would be startled by the side effects and often infected friends by sharing floppies.</p>
+
+                         <p>The Elk Cloner’s life-cycle consisted primarily of three phases: </p>
+
+                         <ol>
+                             <li>Boot Loading </li>
+                             <li>Replication</li>
+                             <li>Manifestation</li>
+                         </ol>
+                        
+                         <p>The Boot Loading phase was the process by which the virus moved from an infected disk into memory. The virus would insert itself into three DOS commands: LOAD, BLOAD, and CATALOG. These DOS commands represented the commands that a user would be most likely to enter when attempting to run a new program from the command line. It was common for users to insert a disk and launch their desired program without rebooting. When a user first inserted a disk, the CATALOG command allowed the user to see which files were on the disk. If the user was familiar with the contents of the disk, they could skip the CATALOG command and load the program into memory using either LOAD or BLOAD, and then use RUN to launch the program.</p>
+
+                         <p>Once it had inserted itself into these key commands, the Elk Cloner used an unused byte in the memory of the computer to maintain a persistent record of how many times the diskette has been booted. It incremented this count and wrote the new value back to the diskette. Finally, it examined the current boot count to determine whether it should manifest itself. The virus would not normally affect the running of the computer except for monitoring disk access.</p>
+
+                         <p>Replication was the process by which the Elk Cloner infected new diskettes. For each of the compromised commands (LOAD, BLOAD and CATALOG), the Elk Cloner overwrote the first instruction of the command’s subroutine with an unconditional branch to one of Elk Cloner’s command handlers. As a result, whenever one of these commands was invoked, the control of execution was passed to the virus and it would perform three primary tasks: </p>
+
+                         <ol>
+                             <li>determine whether the current diskette had already been infected</li>
+                             <li>invoke Elk Cloner’s replication subroutine if necessary</li>
+                             <li>prepared for re-entry into the DOS command subroutine</li>
+                         </ol>
+
+                         <p>It is important to note that the Elk Cloner infection could only spread from one diskette to another if the two diskettes were used in the same computer. As a result, the virus could spread only as rapidly as users physically moved from one computer to the next.</p>
+
+                         <p>Manifestation was the process by which the virus exhibited user-observable behavior. Although the Elk Cloner manifested itself using 14 different behaviors, the Cloner poem is its most widely discussed behavior. For every 50th time that a computer was booted up, it would display the following poem:</p>
+
+                        <a href="#">
+                            <img class="img-responsive" src="./img/poem.png" alt="">
+                        </a>
+
+                        <p>It also manifested itself in the form of rotating images, blinking text, and joke messages.</p>
+
+                        <p>Although the Elk Cloner lacked the sophistication of many modern viruses, it is an important historical artifact marking the emergence of viruses in personal computers.</p>
+
+
+                    <blockquote>1989: The "AIDS Trojan" written by Joseph Popp. The first known malware extortion attack.</blockquote>
+
+                    <a href="#">
+                        <img class="img-responsive" src="./img/Aids_computer_virus.png" alt="">
+                    </a>
+
+                    <p>The Aids Trojan malware, the first ransomware written in 1989. It was also known as PC Cyborg. Distributed by evolutionary biologist Dr.Joseph L. Popp.</p>
+                    
+                    <p>The distribution of this particular malware was quite unconventional. The Internet was fairly new at the time so it was not utilized. So In December 1989, Biologist Joseph Popp mailed an infected floppy disk labeled “AIDS Information Introductory Diskette” to every single attendee of the World Health Organization AIDS conference. The disc also had a logo which read out “PC Cyborg Corporation”. Using a hijacked subscriber list, Joseph managed to figure out all of the names and addresses of the attendees, successfully mailing it to 20000 individuals and institutions. The floppy disk contained a software that was a survey about the AIDS virus to disguise its true intentions.</p>
+	
+                    <p>The floppy disk contained two files which were both written in QuickBASIC 3.0, a compiler for the BASIC programming language. One of which was the installer of the malware itself, and the other containing the questionnaire. Once the malware was installed, instead of encrypting all of the victims files all at once, it first infected the C: drive of the computer and took possession of AUTOEXEC.BAT, a startup file used by the Windows operating system during that time. This file will always execute every time the system boots. Afterwards, the malware lays dormant in the file until a certain requirement is met. The malware would then count the amount of times the file it's attached to has executed. After 90 or more executions (it varied) the malware would awaken encrypting every single file in the C: drive with the use of symmetrical encryption. However, the contents of the encrypted files had not been tampered with, rather it alternated its extension names(i.e., .exe, .txt, etc.) preventing the victims from executing the file. After the encryption, the malware would then print a message which told the users that the lease of the software made by PC Cyborg Corporation had expired and they were required to pay a fee that would extend their subscriptions. To extend it for a year, victims would have to pay 180 USD. For a lifetime, victims would have to pay 378 USD. Considering inflation, In today's economy, they would equate to 400 USD and 800 USD respectively. They were then instructed to mail the ransom money to a P.O box in Panama. When users reboot their systems to avoid this, the message inevitably pops up again and again.</p>
+
+                    <p>However, with the unusual way of payment for this service, users were skeptical and avoided paying. Some panicked, completely wiping their hard drives, losing years of data and research, one institution based in Italy lost a year of research for AIDS. Although this ransomware wasn’t completely successful in generating money, it jump started the idea of using malware as an upper hand to gain money.</p>
+
+                    <p>As for Joseph Popp the creator of the malware, two weeks after releasing the malware, he was in distress while traveling back to the US after a WHO seminar on AIDS in Nairobi, where the AIDS Trojan malware had been a hot topic. In Amsterdam’s Schiphol airport, Joseph wrote “DR. POPP HAS BEEN POISONED” on a suitcase of a fellow passenger, which immediately caught the authorities attention. This led authorities to investigate his baggage in which they found a seal labeled “PC Cyborg Corporation''. Afterwards, he was arrested by the FBI in January 1990.</p>
+
+ 
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                        <p class="copyright text-muted"> CPSC 329 &copy; Group 18 2021</p>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="js/clean-blog.min.js"></script>
+
+    </body>
+
+</html>

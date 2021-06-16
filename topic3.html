@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Group 18: CPSC 329 Final Project</title>
+
+        <!-- Adding the website Icon -->
+        <link rel="icon" href="./img/favicon-32x32.png">
+
+        <link rel="stylesheet" href="../website 2.0/css/basic.css">
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/clean-blog.min.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="Introduction.html">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="topic2.html">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="topic3.html">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- Page Header -->
+        <!-- Set your background image for this header on the line below. -->
+        <header class="intro-header" style="background-image: url('img/post-bg.jpg')">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <div class="post-heading">
+                            <h1>Fast forward to the boom of the Internet age</h1>
+                            <h2 class="subheading">Despite the prevalence of malware threats and their wide-spread impact, most of us know very little about the basic nature of malwares and its origins.</h2>
+                            <span class="meta">Final Project by <a href="#">Group 18</a> : June 16, 2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Post Content -->
+        <article>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+                        <h2 class="section-heading">Boom Of The Internet Age: How Malware Has Evolved</h2>
+
+                        <p>With the Internet making it easier for the spread of malware, cybercriminals began to realize that they could target a wider population. Here’s a brief rundown of the most notable malwares of the Internet age:</p>
+
+                        <br>
+
+                        <blockquote>1988: “Morris Worm”—  The first computer worm distributed via the Internet</blockquote>
+
+                        <p>The Morris Worm, also called the Internet Worm, was the first computer worm to be distributed over the Internet. It was written by Robert Tappan Morris, a 23-year-old doctoral student at Cornell University.It was launched in 1988 from a computer at Massachusetts Institute of Technology (MIT) in the hope of suggesting that its creator studied there, instead of at Cornell University.</p>
+
+                        <a href="#">
+                            <img class="img-responsive" src="img/morris.jpeg" alt="">
+                        </a>
+
+                        <p>At the time, the Internet consisted of approximately 60000 machines — around 6000 of which were infected by the Morris worm within 24 hours of its release. This paralyzed much of the Internet back then. It eventually infected thousands of computers at prestigious universities, government laboratories, and research centers. It drew massive media attention for its widespread effects and resulted in the first felony conviction in the US under the 1986 Computer Fraud and Abuse Act.</p>
+
+                    <div class="flex-row">
+                    <div class="flex-item flex-item-stretch flex-column">
+                        <iframe width="730" height="380" src="https://www.youtube.com/embed/G2i_6j55bS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="flex-item flex-item-stretch flex-column">
+                        <p class="text">
+                        Like viruses, the worm was capable of replicating and propagating itself through networks, but it did not need a software host to exist. Despite being comprised of only 99 lines of code, it posed a huge threat due to a flaw in its propagation mechanism which allowed it to replicate at a remarkable rate. Its rate-limiting behavior was not effective, and a hundred or more copies could be running on a single machine, causing the server to become overloaded and non-responsive. Even uninfected machines were vulnerable to assault through multiple infection attempts coming from many independent sources. As the number of infections increased, the worm’s ability to limit itself decreased and it could not trace its progress or control it.
+                        </p>
+                    </div>
+                    </div>
+
+                        <p>It specifically targeted Unix operating systems, but it had multiple vectors that allowed it to spread beyond that initial limitation. The Morris worm’s most disruptive aspect was the intensity of its attacks on machines running the Unix sendmail program which resulted in denial of email service to large portions of the Internet. To spread itself over the Internet, the Morris worm exploited two major vulnerabilities in the sendmail program which were the DEBUG mode and the run program command. In theory, remote users could not access run program, but in reality, DEBUG mode enabled run program for remote users and this allowed remote code execution. If this tactic was unsuccessful, the worm tried to utilize rsh (remote shell) which was typically used for remote administration.</p>
+
+                        <p>Login and password are required to use rsh, so the worm brute forced them. The Morris worm also functioned through the exploit of weak passwords and network logins with no password requirements via remote execution with rsh (remote shell). An impressively high success rate was achieved using only a small internal dictionary of 400 words, and some easy-to-guess passwords such as passwords identical to usernames or consisting of the same letters in reverse order.</p>
+
+                        <p>Upon successful computer penetration, the worm checked to see if the computer was already infected. Morris had programmed the worm to duplicate itself at every seventh instance of a “yes” response in computers that said they already had the worm installed. However, the seven-to-one ratio wasn’t high enough to slow the program’s reproduction and it continued its operation regardless of other copies. Many computers became infected dozens of times. This programming error led the worm to spread much faster than Morris could have ever envisioned. The end result was occupying the machine’s resources until it shut down just like a denial-of-service (DoS) or distributed denial-of-service (DDoS) attack swarms a network with a series of requests until service is halted.</p>
+
+                        <p>It’s important to note that the worm did not cause mass destruction or damage files. The damage came in the form of lost revenue for emails being delayed for days and lost time for the many systems administrators who had to work for hours to clean up the mess.</p>
+
+                        <div class="flex-row">
+                        <div class="flex-item flex-column">
+                            <p>Shortly after the attack, Morris contacted two friends, admitting he had launched the worm and despairing that it was meant to be a harmless experiment but, had spiraled out of control due to a programming error. In an effort to mitigate damage, Morris worked with a friend to send out a message with instructions on how to dismantle the worm. Ironically, very few received the message in time because the network was too congested which prevented the message from getting through.</p>
+
+                            <img src="img/RobertMorris.png" alt="" class="center">
+
+                            <span class="caption text-muted">Robert Tappan Morris - The creator of the Morris Worm</span>
+
+                            <p>After the incident became public, the FBI launched an investigation and Morris was convicted in 1989. The court sentenced Morris to 3 years of probation, a $10,000 fine, and 400 hours of community service. His experiment in 1988 led to the beginnings of security regulations and laws that permeate the internet today. The idea of cybersecurity became something computer users began to take more seriously and Morris became a well-respected member of the computer society. Morris later went on to earn a Ph.D. at MIT, become a tech founder, a venture capitalist at the startup fund Y Combinator, and a professor of computer science at MIT.</p>
+                        <!-------------------------------------------------------------------------------------------->
+                    </div>
+                    </div>
+
+                    <hr>
+                    <blockquote>1999: “The Melissa Virus”— The fastest growing virus of its time </blockquote>
+
+                    <p>In late March 1999, a programmer named David Lee Smith hijacked an America Online (AOL) account and used it to post a file on an Internet newsgroup named “alt.sex.” The posting promised dozens of free passwords to fee-based websites with adult content. When users took the bait, downloading the document and then opening it with Microsoft Word, a virus was unleashed on their computers.</p>
+
+                    <a href="#">
+                        <img class="img-responsive" src="./img/melissa1.jpg" alt="">
+                    </a>
+
+                    <p>The Melissa virus, reportedly named by Smith for a stripper in Florida, started by taking over victims’ Microsoft Word program. It then used a macro to hijack their Microsoft Outlook email system and send messages to the first 50 addresses in their mailing lists. Those messages, in turn, tempted recipients to open a virus-laden attachment by giving it such names as “sexxxy.jpg” or “naked wife” or by deceitfully asserting, “Here is the document you requested ... don’t show anyone else ;-).” With the help of some devious social engineering, the virus operated like a sinister, automated chain letter.</p>
+
+                    <a href="#">
+                        <img class="img-responsive" src="./img/melissa2.jfif" alt="">
+                    </a>
+
+                    <p>Melissa had grave implications for company and web servers that carried the large volumes of emails being created. It successfully crippled hundreds of networks, including those of Microsoft and the United States Marine Corp. The New York Times reported in March 1999 that 250 organizations had called the Computer Emergency Response Team, a Pentagon-financed security service at Carnegie Mellon University, which meant that at least 100,000 workplace computers were affected. The final number infected was likely even higher than that.</p>
+
+                    <p>Smith, Melissa’s creator, was arrested at his brother’s house following an investigation led by the FBI, the New Jersey State Police, who had help from others, including a Swedish computer scientist. They tracked him down electronically, just a week after the malware was released. Smith pleaded “not guilty” and said that he had no idea the virus would inflict this kind of damage. He claimed it was originally meant to be a harmless joke.</p>
+                    
+                    <p>The then-34-year-old ultimately served 20 months in jail and had to pay $5,000. The judge who oversaw his case also told Smith to stay away from computer networks or the internet unless authorized by the court. He could have faced up to five years in prison, but prosecutors suggested a lesser term when Smith agreed to help authorities find and thwart other viruses. Little can be found about what Smith is doing twenty years later, though he did appear to help the FBI for some time being released from his prison sentence.</p>
+                    
+                    <p>The Melissa virus, considered the fastest spreading infection at the time, was a rude awakening to the dark side of the web for many Americans. Awareness of the danger of opening unsolicited email attachments began to grow, along with the reality of online viruses and the damage they can do.</p>
+
+                    <p>Like the Morris worm just over a decade earlier, the Melissa virus was a double-edged sword, leading to enhancements in online security while serving as inspiration for a wave of even more costly and potent cyberattacks to come.
+                        For the FBI and its colleagues, the virus was a warning sign of a major germinating threat and of the need to quickly ramp up its cyber capabilities and partnerships.</p>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                        <p class="copyright text-muted"> CPSC 329 &copy; Samiha Hoque 2021</p>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="js/clean-blog.min.js"></script>
+
+    </body>
+
+</html>
