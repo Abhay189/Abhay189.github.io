@@ -22,6 +22,8 @@
         <link href="css/clean-blog.min.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -115,6 +117,7 @@
 
                         <br>
 
+                        <hr>
                         <blockquote>1971: The “Creeper” virus written by Bob Thomas. First detected on ARPANET</blockquote>
 
                         <p>The Creeper program or Creeper virus was the world's first ever recorded malware. It was an experimental program written by Bob Thomas in 1971.</p>
@@ -130,12 +133,8 @@
                         <p>However, the program didn’t stop there. Ray Tomlinson, colleague of Bob Thomas, updated the program. Not only would it move through the network, it would also guarantee to replicate itself. This version was considered to be the first ever worm malware recorded in history. Apart from the fact that Ray had upgraded the Creeper program, he also made a Reaper program. Similar to the updated Creeper program, it wandered and replicated itself, however, its purpose was to find Creeper programs in the systems which would then force the Creeper to log off. Through that fact, the Reaper was labeled as the first anti-virus software.</p>
 	  
                         <p>As stated above the Creeper program was not at all malicious, so the “damages” the creeper may have caused would most likely be just minor annoyances. Although, some say their creeper program replicated so much, it overpowered other programs. Overall, the extent of the damages made by the program are unspecified. Both authors were not condemned or anything of that sort for creating the program.</p>
-
-                       
-
-                        <br><br>
-
  
+                        <hr>
                         <blockquote>1982: “Elk Cloner”—  The first computer virus that spread "in the wild"</blockquote>
 
                         <p>The Elk Cloner virus is one of the first known computer viruses that spread outside the computer system or laboratory in which it was written. In February 1982, Rich Skrenta, created the Elk Cloner as a prank. At the time, he was a 15-year-old high school student with a precocious ability in programming and an overwhelming interest in computers.</p>
@@ -173,6 +172,32 @@
 
                         <p>Although the Elk Cloner lacked the sophistication of many modern viruses, it is an important historical artifact marking the emergence of viruses in personal computers.</p>
 
+                        <hr>
+
+                        <blockquote>1986: “Brain”—  The first computer virus initially for attacking criminals</blockquote>
+
+                        <p>In 1986, the "Brain' was written by two brothers, Amjad Farooq Alvi and Basit Farooq Alvi, who lived in Chah Miran, near Lahore Railway Station, in Lahore, Pakistan. The brothers told a few interviews, including TIME magazine from 1988 and F-secure from 2011, that they had written it with friendly intentions to protect their medical software from illegal copying. It was supposed to target copyright infringement. This medical software was originally used to track a heart monitoring program for the IBM PC. They want to write Brain to annoy criminals for an attempt to steal the software by infecting their systems and demanding payments to disinfect them. In the F-secure interview, they have mentioned that they are unaware of the "Elk Cloner" virus that happened in 1982 that spread in large areas like wildfire before they write the Brain. Therefore, they are not cautious when writing the Brain that turned out infecting hard disks in the whole wide world through floppy disks passed around, even some people who have taken it with them when traveling to other countries. This extent was beyond the authors' intentions when they wrote the Brain. The two brothers receive many unexpected calls, some of them coming from the United States and the United Kingdom, in a matter of days from when they sold floppy disks with embedded Brain.</p>
+                        
+                        
+                        <p>Here’s the full interview from F-secure:</p>
+
+                        <!-- Add youtube video here  -->
+                        <div class="flex-item flex-item-stretch flex-column">
+                            <iframe style="margin-left: 7px;" width="730" height="380" src="https://www.youtube.com/embed/lnedOWfPKT0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+
+                        <p>Brain was one of the first known viruses to target customers' IBM PC platforms and MS-DOS operating systems. For Brain to affect the targets was to replace the boot sector of a floppy disk with a copy of the virus and use techniques to hide its existence.  First, the actual boot sector is moved to another sector and marked as bad. Then, the disk label is changed to ©Brain, and the following text can be seen in infected boot sectors to warn the culprits:</p>
+                        
+                        <p style="font-family: 'VT323', monospace;">Welcome to the Dungeon (c) 1986 Amjads (pvt) Ltd VIRUS_SHOE RECORD V9.0 Dedicated to the dynamic memories of millions of viruses who are no longer with us today - Thanks GOODNESS!!! BEWARE OF THE er..VIRUS : this program is catching program follows after these messages....$#@%$@!!</p>
+                        
+                        <p>This completed virus came with the brothers' address, three phone numbers, and a message that told the user that their machine was infected they need to call the authors' company for inoculation:</p>
+
+                        <p style="font-family: 'VT323', monospace;">Welcome to the Dungeon © 1986 Basit & Amjads (pvt). BRAIN COMPUTER SERVICES 730 NIZAM
+                        BLOCK ALLAMA IQBAL TOWN LAHORE-PAKISTAN PHONE: 430791,443248,280530. Beware of this VIRUS.... Contact us for vaccination...</p>
+
+                        <p>Unfortunately, Brain lacks code for dealing with hard disk partitioning and avoids infecting hard disks by checking the most significant bit of the BIOS drive number being accessed. Brain does not infect the disk if the bit is clear; however, it did not pay attention to disk partitioning, which resulted in destroyed data stored on hard disks by treating them in the same way as floppy disks. Users didn't notice any error in their system caused by Brain due to its ability to be undetected. Authors didn't expect to see all of these issues that have been spreading rapidly until angry users from other sides of the world called them to demand them to resolve it, including these users who didn't commit any crimes when using their floppy disks.</p>
+           
+                        <hr>
 
                     <blockquote>1989: The "AIDS Trojan" written by Joseph Popp. The first known malware extortion attack.</blockquote>
 
